@@ -118,11 +118,10 @@
         <div class="row-fluid">
             <div class="span9 xapp-config-description">
                 <div class="xapp-config-description-inner text-light">
-                    <h2 class="app-config-title text-warning"><?php echo _('My Solar'); ?></h2>
-                    <p class="lead">The My Solar app can be used to explore onsite solar generation, self consumption, export and building consumption both in realtime with a moving power graph view and historically with a daily and monthly bargraph.</p>
-                    <p><strong class="text-white">Auto configure:</strong> This app can auto-configure connecting to emoncms feeds with the names shown on the right, alternatively feeds can be selected by clicking on the edit button.</p>
-                    <p><strong class="text-white">Cumulative kWh</strong> feeds can be generated from power feeds with the power_to_kwh input processor.</p>
-                    <img src="../Modules/app/images/mysolar_app.png" class="d-none d-sm-inline-block">
+                	<h2 class="app-config-title text-warning"><?php echo _('My HVAC'); ?></h2>
+                	<p class="lead">Examine heating, cooling, and dual-zone dampers.</p>
+                	<p><strong class="text-white">Auto configure:</strong> This app can auto-configure connecting to emoncms feeds with the names s$
+                	<img src="<?php echo $path; ?><?php echo $appdir; ?>preview.png" style="width:600px" class="img-rounded">
                 </div>
             </div>
             <div class="span3 app-config pt-3"></div>
